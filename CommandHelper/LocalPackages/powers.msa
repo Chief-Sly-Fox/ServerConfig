@@ -1254,7 +1254,8 @@ powers:/powers = >>>
  	tmsg(@playerName, "/whitecanary")
 	tmsg(@playerName, "/jump 0-2")
 	tmsg(@playerName, "/run 0-2")
-	tmsg(@playerName, "/haste 0-1")
+
+tmsg(@playerName, "/haste 0-1")
     }
     else if(@playerRank == "carnage")
     {
@@ -1288,5 +1289,21 @@ powers:/powers = >>>
 	tmsg(@playerName, "/haste 0-6")
 	tmsg(@playerName, "/fly on")
 	tmsg(@playerName, "/fly off")
+    }
+    else if(@playerRank == "nekron")
+    {
+    	tmsg(@playerName, "/nekron")
+	tmsg(@playerName, "/jump 0-9")
+        tmsg(@playerName, "/run 0-9")
+        tmsg(@playerName, "/haste 0-9")
+        tmsg(@playerName, "/fly on")
+        tmsg(@playerName, "/fly off")
+	tmsg(@playerName, "/tp")
+	tmsg(@playerName, "/gmc")
+	tmsg(@playerName, "/gms")
+	tmsg(@playerName, "/skull")
+	tmsg(@playerName, "/empower")
+	tmsg(@playerName, "/speak")
+	tmsg(@playerName, "/mindcontrol")
     }
 <<<
